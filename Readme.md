@@ -14,8 +14,8 @@ Download Java and set up path of JDK in Environment
 Download Maven and Set up path of maven
 
 ## Design Patterns
-1. chain of responsibility to handle check for luxury , miscelleneous and essential
-2. Singleton to make single instance of values of upper cap and keep it constant for all item and over xomplete chain
+1. **Chain of Responsibility** to handle check for luxury , miscelleneous and essential
+2. **Singleton** to make single instance of values of upper cap and keep it constant for all item and over xomplete chain
 
 
 
