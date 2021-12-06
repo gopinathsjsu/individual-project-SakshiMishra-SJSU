@@ -1,11 +1,11 @@
-#CMPE -202 -Individual Project
+# CMPE -202 -Individual Project
 
-##Inventory Management
+## Inventory Management
 
 Name : Sakshi Mishra
 SJSU ID : 015721810
 
-##Installation Guide
+## Installation Guide
 Clone git repository
 Download Intellij 
 import project in intellij
@@ -13,7 +13,7 @@ Move to pom.xml and import all dependencies
 Download Java and set up path of JDK in Environment
 Download Maven and Set up path of maven
 
-##Steps to execute
+## Steps to execute
 1. open CMD in project root folder
 2. Type Following commands:
       mvn compile
