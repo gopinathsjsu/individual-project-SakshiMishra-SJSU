@@ -130,8 +130,8 @@ public class Runner {
     }
 
     private static void clearOutputFiles() throws IOException {
-        FileWriter fw = new FileWriter("src/main/resources/input/Output.csv",false);
-        fw = new FileWriter("src/main/resources/input/error.csv",false);
+        new FileWriter("src/main/resources/input/Output.csv",false);
+        new FileWriter("src/main/resources/input/error.txt",false);
     }
 
     private static List<String[]> readCSVFile(String filePath) throws IOException {
