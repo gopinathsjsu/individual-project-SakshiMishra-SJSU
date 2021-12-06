@@ -19,6 +19,6 @@ Download Maven and Set up path of maven
       mvn compile
       - mvn clean
       - mvn install
-      - mvn -X clean install exec:java -Dexec.mainClass="com.inventory.Runner" -Dexec.args="{paste input file in project directory and give its path eg(resources.input.csv if input file is in resources folder)}"
+      - mvn -X clean install exec:java -Dexec.mainClass="com.inventory.Runner" -Dexec.args="{paste input file in project directory and give its path eg("input.csv" if input file is in resources folder)}"
         
 3. check output in resources folder

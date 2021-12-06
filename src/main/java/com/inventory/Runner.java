@@ -13,7 +13,7 @@ public class Runner {
     private static String dataSetFilePath ="src/main/resources/Dataset.csv";
     private static String cardFilePath ="src/main/resources/Cards.csv";
     private static String errorFilePath ="src/main/resources/error.txt";
-    private static String outputFilePath ="src/main/resources/input/Output.csv";
+    private static String outputFilePath ="src/main/resources/Output.csv";
     @SuppressWarnings("resource")
     public static void main(String[] args) throws Exception
     {
@@ -130,8 +130,8 @@ public class Runner {
     }
 
     private static void clearOutputFiles() throws IOException {
-        new FileWriter("src/main/resources/input/Output.csv",false);
-        new FileWriter("src/main/resources/input/error.txt",false);
+        new FileWriter(outputFilePath,false);
+        new FileWriter(errorFilePath,false);
     }
 
     private static List<String[]> readCSVFile(String filePath) throws IOException {
